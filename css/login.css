@@ -1,0 +1,76 @@
+main{
+    background-color:#ffffff;
+    width: 100%;
+    display: flex;
+}
+
+.principal{
+    background-color: #ffffff;
+    width: 45%;
+    height: 400px;
+    margin: 100px auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+    padding: 3px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+form{
+    margin-top: 80px;
+}
+
+.imgcentro img{
+    margin:5% 0 0 35%;
+    width: 50%;
+}
+
+.principal h2{
+    margin-top: 1em;
+    text-decoration: none;
+    color: #18A0FB;
+    font-size: 1.6em;
+    transition: 0.5s;  
+    font-weight: 600;  
+}
+
+.input-texto{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 80%;
+    height: 35px;
+    transition: 0.5s; 
+    font-family: 'MontSerrat';  
+    font-weight: 600; 
+}
+
+.principal form button{
+    background: #18A0FB;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0 0em 0 49%;
+    padding: 0.2em 2em ;
+    border-radius: 0.4em;
+    border: none;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.principal form p{
+    margin-top: -25px;
+    font-family: 'MontSerrat';
+    margin-left: -180px;
+    cursor: pointer;
+    font-size: 11pt;
+    font-weight: 800;
+    color: #18A0FB;
+}
+
+form p:hover{
+    font-weight: 600;
+    font-size: 1.1em; 
+}

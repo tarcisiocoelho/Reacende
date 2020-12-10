@@ -1,0 +1,30 @@
+.souMais{
+    display: flex;
+    background-color: #00D8D7;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.souMais img{
+    width: 60%;
+}
+
+.textoSouMais p{
+    margin-top: 1em;
+    padding: 1em 1.4em;
+    line-height: 1.0em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    font-size: 20pt;
+    text-align: center;
+    padding: 1em 2.0em;
+}
+
+.lista{
+    padding: 1em 3.5em;
+    line-height: 1.0em;
+    font-size: 15pt; 
+}

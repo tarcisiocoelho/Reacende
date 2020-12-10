@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'MontSerrat';
+    src: url('../fontes/montserrat-thin-webfont.woff2') format('woff2'),
+         url('../fontes/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+ font-family: 'MontSerrat';
+}
+
+main{
+    background-color:#00A0A0;
+    width: 100%;
+    display: flex;
+}
+
+.caixaDeTexto{
+    background-color: #ffffff;
+    width: 45%;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 40px;
+    box-shadow:0em 0.3em 1em black;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    text-decoration: none;
+    font-weight: 700;
+    color: #18A0FB;
+    font-size: 1.6em;
+    margin: 15px 0 15px 20px; 
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.caixaDeTexto form{
+    align-items: center;
+    
+} 
+
+.caixaDeTexto form button{
+    background: #18A0FB;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 2 1em 0 62%;
+    padding: 0.3em 2em ;
+    border-radius: 0.4em;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.botoes{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.mudarPagina {
+    background: #FCC800;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 2 1em 0 62%;
+    padding: 0.3em 2em ;
+    border-radius: 0.4em;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.botoes a{
+    margin: 0 auto;
+}
+.input-texto{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 80%;
+    height: 35px;
+}
+
+.input-nome{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 40%;
+    height: 35px;
+}
+
+.input-sobrenome{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 40%;
+    height: 35px;
+}

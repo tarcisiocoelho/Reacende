@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'MontSerrat';
+    src: url('../fontes/montserrat-thin-webfont.woff2') format('woff2'),
+         url('../fontes/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'MontSerrat';
+    padding-top: 100px;
+}
+/* início do cabeçalho */
+header{
+    display: flex ;
+    background-color: #18A0FB;
+    height: 100px;
+    width: 100%;
+    justify-content:space-between ;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #FCC800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{  
+    height: 70px;
+    margin-right: -0.4em;
+    transition: 0.5s;
+}
+#logo:hover{
+    height: 90px;
+    cursor: pointer;
+}
+.menu{
+    font-weight: 700;
+    color: #FCC800;
+    margin: 0 1em;
+}
+
+.menu p{
+    margin: 0 1em;
+    transition: 0.5s;
+}
+.menu p:hover{
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+.menuBotao{
+    margin-right: 1em;
+}
+.menuBotao button{
+    margin-right: 1em;
+    padding: 0.5em ;
+    color: #18A0FB;
+    background-color: #ffffff;
+    border-radius: 0.4em;
+    border: none;
+    font-weight: 600;
+    font-size: 1.4em;
+    transition: 0.5s;
+}
+.menuBotao button:hover, .botaoRodape button:hover{
+    font-size: 1.5em;
+    padding: 0 1.6em,;
+    cursor: pointer;
+}
+
+
+/* Fim do cabeçalho */
+
+
+
+/* Começo do rodapé */
+.info{
+    color: #ffffff;
+    /* height: 60vh; */
+    display: flex;
+    background-color: #18A0FB; 
+    padding: 1em 0;
+}
+.info div{
+    width: 25%;
+    margin: 0 auto;
+    font-size: 1.2em;
+    
+}
+.sobreNos{
+
+    margin: 0 auto;
+}
+.topoDasInfos{
+    color: #FCC800;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.regiao, .email{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inf{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.rodape{
+    display: flex;
+}
+.containerRedesSociais{
+    display: flex;
+    margin: 2em auto;
+}
+.containerRedesSociais img{
+    height: 2.6em;
+}.redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.6em;
+    height:3.6em;
+    border-radius: 50%;
+    margin: 0 1em;
+    transition: all 0.5s;
+}
+.redesSociais:hover{
+    cursor: pointer;
+    transform: translateY(-1em);
+    box-shadow: 0.8em 1em 2.5em black;
+    /* A primeira medida é para sombra para direita, a segunda para baixo. A terceira medida é para colocar o "blur", o efeito de esfumaçado edepois tem a cor. */
+}
+#whatsapp{
+    background-color: #4ac959;
+}
+#youtube{
+    background-color:  #c4302b;
+}
+#facebook{
+    background-color: #3b5998; 
+}
+#facebook img{
+    height: 2em;
+}
+#instagram{
+    background: #e2725b;
+}
+#instagram img{
+    height: 2em;
+}
+
+hr{
+    width:80%;
+}
+.assinaturaRodape{
+    display: flex;
+    font-size: 0.8em;
+    justify-content: center;
+    padding: 2em 0 1.5em;
+    color: black;
+}

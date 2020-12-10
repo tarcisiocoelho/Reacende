@@ -1,0 +1,60 @@
+*{
+    font-family: 'MontSerrat';
+}
+main{
+    background-color:#00A0A0;
+    width: 100%;
+    display: flex;
+}
+.caixaDeTexto{
+    background-color: #ffffff;
+    width: 48%auto;
+    height: 47%;
+    margin: 50px  ;
+    margin-left: 80px;
+    border-radius: 40px;
+    font-weight: 600;
+    box-shadow:0em 0.3em 1em black;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FCC800;
+    font-size: 2em;
+    margin: 17px 0 15px 20px;    
+}
+.caixaDeTexto form{
+    align-items: center;
+    
+} 
+.caixaDeTexto form button{
+    background: #FCC800;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0 em 0 50%auto;
+    padding: 0.2em 2em ;
+    border-radius: 0.4em;
+    border: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-left: 100px;
+    margin: 7%auto;
+
+}
+.input-texto{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 100%;
+    height: 35px;
+       
+}
+.logoMain{
+    margin: 10%;
+    margin-top: 60px;
+    margin-right: 10px ;
+}

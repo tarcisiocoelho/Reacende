@@ -1,0 +1,107 @@
+
+
+/* inicio */
+.container{
+    width: 100%;
+}
+
+.imgTeclado{
+    width: 100%;
+}
+#textoFundo{
+    left: 35%;
+    position: absolute;
+    top: 6em;
+    color: white;
+    background: rgba(196, 196, 196, 1);
+    height: 1.4em;
+    width: 12em;
+    border-radius: 0.3em;
+    font-size: 2.6em;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* fim */
+
+
+/* inicio cursos */
+
+#interComp{
+    width: 100%;
+    background: #008282;
+    margin-top: -0.3em;
+}
+
+#pacoteOff{
+    width: 100%;
+    background: rgba(0, 160, 160, 1);
+    
+}
+
+#pacoteOff img{
+    background: rgb(196, 83, 48);
+}
+
+#box-curriculo{
+    width: 100%;
+    height: 300px;
+    background: rgb(3, 190, 190);
+}
+
+#box-gmail{
+    width: 100%;
+    background: rgba(0, 160, 160, 1);
+}
+
+
+#box-desen-pessoal{
+    width: 100%;
+    background: rgba(0, 130, 130, 1);
+}
+
+#box-softskills{
+    width: 100%;
+    background: rgba(0, 115, 204, 1);
+
+}
+
+.basicoInternet{
+    display: flex;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+.basicoInternet img{
+    height: 238px;
+    width: 234px;
+    margin-top: 30px;
+    margin-left: 25px;
+    
+}
+
+.tituloCurso{
+    margin: 1em 0 0 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+    color: rgba(252, 200, 0, 1);
+}
+
+.descricaoCurso{
+    margin: 1em 0 1em 1em;
+    font-size: 1.5em;
+    font-style: normal;
+    font-family: 'MontSerrat';
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.015em;
+    color: rgb(255, 255, 255);
+}
+
+/* fim cursos */
+

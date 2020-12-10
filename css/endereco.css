@@ -1,0 +1,135 @@
+main{
+    background-color:#00A0A0;
+    width: 100%;
+    display: flex;
+}
+
+.principal{
+    background-color: #ffffff;
+    width: 50%;
+    height: 500px;
+    margin: 100px auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:0em 0.3em 1em black;
+}
+
+.alinhar{
+    display: flex;
+}
+
+#nome-cadastrado{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #18A0FB;
+}
+
+.principal h3{
+    font-size: 1.5em;
+    padding: 1em 1.6em;
+    width: 18%;
+}
+
+.principal p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    padding: 1.2em 0em;
+    margin: 0.7em -2em;
+    line-height: 1.3em;
+}
+
+.infoPessoais{
+    padding: 1em;
+    
+}
+
+.infoPessoais input{
+    padding: 0.3em;
+    margin: 3px;
+    height: 20px;
+}
+
+.digiteEndereco{
+    width: 50%;
+}
+
+.escolaridade{
+    width: 52%;
+    height: 30px;
+    margin: 3px;
+}
+
+.renda{
+    width: 26.6%;
+    height: 32px;
+    margin: 2px 0px 0px 3px;
+}
+
+.etnia{
+    width: 26.6%;
+    height: 30px;
+    margin: 3px 0px 0px 6px; 
+}
+
+.numero{
+    width: 10%;
+}
+
+.colunaCheckbox{
+    margin-top: 25px;
+    display: flex;
+    padding: 0.5em 0;
+}
+
+.confirmar{
+    width: 30px;
+    cursor: pointer;
+}
+
+.colunaCheckbox label{
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.1em 2em;
+}
+
+.voltar{
+    margin: 0 0 0 5%;
+    padding: 0.5em;
+    color: #ffffff;
+    background-color: gray;
+    border-radius: 0.4em;
+    border: none;
+    width: 6em;
+    height: 2em;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.voltar:hover{
+    background-color: black;
+}
+
+.enviar{
+    margin: 0 0 0 56%;
+    padding: 0.5em;
+    color: #ffffff;
+    background-color:  #18A0FB;
+    border-radius: 0.4em;
+    border: none;
+    width: 6em;
+    height: 2em;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background-color:#2e48dd ;
+}
+

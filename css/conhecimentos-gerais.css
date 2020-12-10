@@ -1,0 +1,98 @@
+main{
+    background-color:#00A0A0;
+    width: 100%;
+    display: flex;
+}
+
+.principal{
+    width: 50%;
+    background-color: #ffffff;
+    margin: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 80px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:0em 0.3em 1em black;
+}
+
+.infoCheck{
+    padding: 0 0 0 1em;
+    display: flex;
+    margin-left: -35px;
+}
+
+.principal h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 0em 2.4em;
+    font-weight: 600;
+}
+
+#nome-cadastrado{
+    color: #18A0FB; 
+    transition: 0.3s; 
+}
+
+.principal p{
+    font-size: 11pt;
+    padding: 1.4em 0em;
+    margin: 0 3em;
+    line-height: 1.3em;
+    transition: 0.2s;
+}
+
+.form-css{
+    width: 100%;
+    height: 300px;
+}
+
+.input-css{
+    margin: 30px 30px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #FCC800;
+    font-size: 15pt;
+}
+
+.input-css input{
+    width: 30px;
+    height: 20px;
+    margin: 5px;
+}
+
+.voltar{
+    margin: 3.5em 0 0 6%;
+    color: #ffffff;
+    background-color: gray;
+    border-radius: 0.4em;
+    border: none;
+    width: 6em;
+    height: 2em;
+    font-weight: 600;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.voltar:hover{
+    background-color: black;
+}
+
+.button{
+    margin-left: 200px;
+    color: #ffffff;
+    background-color: #18A0FB;
+    border-radius: 0.4em;
+    border: none;
+    width: 6em;
+    height: 2em;
+    font-weight: 600;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #1860fb;
+}
+

@@ -1,0 +1,32 @@
+
+.souMais{
+    display: flex;
+    background-color: #00D8D7;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.souMais img{
+    width: 50%;
+}
+
+.textoSouMais h1{
+    padding: 1em 1.0em;
+    font-size: 20pt;
+    text-align: center;
+    line-height: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff
+}
+
+.textoSouMais {
+    font-family: 'MontSerrat';
+    padding: 0 3.0em;
+    text-align: justify;
+    line-height: 1.7em;
+    font-size: 13pt;
+    font-weight: 600;
+    color: #ffffff
+}
+
+
