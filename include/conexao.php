@@ -1,6 +1,6 @@
 <?php
 
-    $severname = "localhost";
+    $severname = "64.225.20.28";
     $username = "reacende";
     $password = "@Reacende50";
     $database = "reascende";
