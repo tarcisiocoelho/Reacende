@@ -1,8 +1,8 @@
 <?php
 
-    $severname = "localhost";
-    $username = "root";
-    $password = "";
+    $severname = "reacende@localhost";
+    $username = "reacende";
+    $password = "@Reacende50";
     $database = "reascende";
 
     $conn = mysqli_connect($severname, $username, $password, $database);
